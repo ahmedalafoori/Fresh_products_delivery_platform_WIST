@@ -19,7 +19,7 @@
 
       <!-- Product cards -->
       <div id="products">
-        @foreach($products_all as $pro)          
+        @foreach($products_all as $pro)
         <div class="card">
             <div class="image-container">
               <a href="{{ route('productdetails', ['id' => $pro->id]) }}">
